@@ -22,7 +22,7 @@ public class PunkteKonto extends JavaPlugin{
      /*
      In dem Formular stand folgenes: "Solche Überweisungen nennen wir auch Transaktionen. Jede Veränderung am Punktestand wird durch eine sogennante Transaktion dokumentiert. "
      Jedoch wurde keine Funktion dieser Transaktionen angegeben, weshalb ich das ganze nicht verstanden hab? xd
-     Aus diesem Grund habe ich dann das ganze nicht eingebaut...
+     Aus diesem Grund habe ich dann das ganze nicht eingebaut, da das Ganze ja nirgendwo benutzt wird xD
      */
 	 
   
