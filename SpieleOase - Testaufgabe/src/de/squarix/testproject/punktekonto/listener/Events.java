@@ -29,10 +29,6 @@ public class Events implements Listener {
     PunkteKontoManager.createPlayer(p.getUniqueId().toString());
   }
   	
-  
-  
-
-  
   //3 Aufgabe
   
   /*
