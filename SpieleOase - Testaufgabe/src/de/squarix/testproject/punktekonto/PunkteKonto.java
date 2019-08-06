@@ -27,18 +27,18 @@ public class PunkteKonto extends JavaPlugin{
 	 
   
   public void onEnable() {
-	  main = this;
+    main = this;
 	  
-	  Configuration.getMySQLDaten();
-	  connectMySQL();
-	  PunkteKontoTable.createKontoTable();
+    Configuration.getMySQLDaten();
+    connectMySQL();
+    PunkteKontoTable.createKontoTable();
 	  
-	  register();
+    register();
   }
   
   
-  public void onDisable() {
-	  mysql.close();
+  public void onDisable() {  
+     mysql.close();
   }
   
   private void connectMySQL() {
@@ -49,7 +49,6 @@ public class PunkteKonto extends JavaPlugin{
   public void register()
   {
     PluginManager pm = Bukkit.getPluginManager();
-    
     pm.registerEvents(new Events(), this);
     
     getCommand("punkte").setExecutor(new PunkteCommand());
@@ -57,12 +56,11 @@ public class PunkteKonto extends JavaPlugin{
 
   
   public static PunkteKonto getInstance() {
-	  return main;
+   return main;
   }
 
 
-  public DatabaseConnection getMySQL()
-  {
+  public static DatabaseConnection getMySQL() {
     return mysql;
   }
 
