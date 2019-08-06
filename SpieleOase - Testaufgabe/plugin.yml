@@ -1,0 +1,6 @@
+name: Punkte
+author: Squarix_
+version: 1.0
+main: de.squarix.testproject.punktekonto.PunkteKonto
+commands:
+  punkte:
